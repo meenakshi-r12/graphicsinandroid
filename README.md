@@ -1,5 +1,5 @@
 
-# Ex.No:12 Design an application that draws basic graphical primitives on the screen.
+# Ex.No:7 Design an application that draws basic graphical primitives on the screen.
 
 
 ## AIM:
@@ -34,7 +34,8 @@ Developed by:MEENAKSHI.R
 Registeration Number :212224220062
 */
 ```
-activity_main.xml
+## activity_main.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -55,10 +56,10 @@ activity_main.xml
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-MainActivity.java
-
-package com.example.exp12;
+```
+## MainActivity.java:
+```
+package com.example.experiment7;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.graphics.Bitmap;
@@ -98,10 +99,10 @@ public class MainActivity extends AppCompatActivity {
         canvas.drawLine(520, 850, 520, 1150, paint);
     }
 }
+```
 ## OUTPUT
 
-<img width="217" height="478" alt="325468593-ae414436-b09b-4bcb-a610-fef3bebbda3e-1" src="https://github.com/user-attachments/assets/783061ba-7320-4a8f-a5ea-41eb971f4191" />
-
+<img width="1920" height="1080" alt="Screenshot (217)" src="https://github.com/user-attachments/assets/f49debb3-d618-4792-8f49-09b46e8f9894" />
 
 
 ## RESULT
